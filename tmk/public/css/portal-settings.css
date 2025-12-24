@@ -34,7 +34,7 @@ body > #portal-settings-launcher.portal-settings-launcher {
 position: fixed;
 left: 0px;
 bottom: 0px;
-z-index: 9999;
+z-index: 999;
 width: calc(16.6667%);
 }
 
