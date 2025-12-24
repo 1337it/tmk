@@ -5,6 +5,17 @@ app_description = "ERP For TMK"
 app_email = "aman@leetitsolutions.com"
 app_license = "mit"
 
+
+app_include_css = [
+	"/assets/right_hire/css/tmk.css",
+	"/assets/right_hire/css/portal-settings.css"
+]
+
+app_include_js = [
+	"/assets/right_hire/js/portal-settings.js",
+	"/assets/right_hire/js/enter-to-next-and-focus-first.js",
+	"/assets/right_hire/js/recent_tracker.js"
+]
 # include js in doctype views
 doctype_js = {
     "Sales Invoice" : "public/js/sales_common.js",
