@@ -140,11 +140,13 @@ background-color: white;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
-  width: 20px !important;
-  height: 20px !important;
+  width: 32px !important;
+  height: 32px !important;
   min-width: 20px !important;
 }
-
+.desk-sidebar-item.standard-sidebar-item.selected {
+border-radius: 0px !important;
+}
 .sidebar-item-icon::after {
   content: "";
   width: 20px;
@@ -337,7 +339,10 @@ padding: 0px !important;
 }
 
   .sidebar-item-icon {
-margin: 4px !important;
+margin: 0 4px 0 15px !important;
+stroke-width: 1px;
+--icon-stroke: initial;
+filter: contrast(2);
 }
 .sidebar-item-label {
 vertical-align: bottom;
