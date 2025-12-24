@@ -7,14 +7,14 @@ app_license = "mit"
 
 
 app_include_css = [
-	"/assets/right_hire/css/tmk.css",
-	"/assets/right_hire/css/portal-settings.css"
+	"/assets/tmk/css/tmk.css",
+	"/assets/tmk/css/portal-settings.css"
 ]
 
 app_include_js = [
-	"/assets/right_hire/js/portal-settings.js",
-	"/assets/right_hire/js/enter-to-next-and-focus-first.js",
-	"/assets/right_hire/js/recent_tracker.js"
+	"/assets/tmk/js/portal-settings.js",
+	"/assets/tmk/js/enter-to-next-and-focus-first.js",
+	"/assets/tmk/js/recent_tracker.js"
 ]
 # include js in doctype views
 doctype_js = {
