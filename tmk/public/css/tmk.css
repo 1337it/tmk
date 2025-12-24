@@ -491,7 +491,7 @@ top: calc(var(--navbar-height) + 42px);
 fill: rgba(240, 181, 139, 0);
 stroke: #000000;
 --icon-stroke: unset;
-stroke-width: 0.5px;
+stroke-width: 1px;
 }
 #page-Workspaces .layout-side-section {
 top: calc(var(--navbar-height) + 42px);
