@@ -8,6 +8,12 @@ left: 17vw!important;
 top: 5px!important;
 position: fixed !important;
 }
+    .layout-main-section-wrapper:not([data-page-route="Workspaces"]) {
+min-width: 0;
+position: absolute;
+left: 0;
+margin: 20px;
+}
 
     .form-message {
 position: relative;
@@ -426,7 +432,7 @@ max-height: 300px !important;
 }
 [data-page-route="Workspaces"] .layout-main .layout-main-section {
 border: none !important;
-padding: var(--padding-md);
+padding: var(--padding-xl);
 margin-bottom: var(--margin-sm);
 }
 #page-Workspaces[style="display: none;"] {
@@ -498,6 +504,7 @@ left: 0;
 left: 16.6667%;
 width: calc(100% - 16.6667%);
 position: absolute;
+    margin:0;
 }
 .widget.spacer {
 opacity: 0;
