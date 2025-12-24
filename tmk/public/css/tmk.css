@@ -471,7 +471,7 @@ display: block !important;
 
   position: fixed;
   left: 0;
-top: calc(var(--navbar-height) + 12px);
+top: calc(var(--navbar-height) + 42px);
 }
 .icon, .es-icon {
 fill: rgba(240, 181, 139, 0);
