@@ -132,10 +132,13 @@ min-width: 0;
 background-color: hsl(0, 0%, 5%);
 }
 [data-theme="light"] [data-page-route=Workspaces] .layout-main-section {
-background-color: rgb(13, 13, 13)!important;
+background-color: rgb(242, 242, 242)!important;
 box-shadow: none;
 border-radius: var(--border-radius-lg);
 padding: var(--padding-sm);
+}
+    [data-theme="dark"] [data-page-route=Workspaces] .layout-main-section {
+background-color: rgb(13, 13, 13)!important;
 }
 [data-theme="light"] .widget {
 display: flex;
