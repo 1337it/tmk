@@ -1,6 +1,16 @@
 
 
 @media only screen and (min-width: 992px) {
+    [data-theme="dark"] .es-icon.es-line.step-icon.icon-md {
+filter: invert() !important;
+}
+        [data-theme="dark"] .widget.dashboard-widget-box {
+border: 1px solid rgba(255, 255, 255, 0.12);
+box-shadow: rgb(0, 0, 0) 0px 1px 5px inset, rgba(0, 0, 0, 0.98) 0px 1px 0px inset, rgb(0, 0, 0) 0px 2px 2px inset;
+}
+    [data-theme="dark"] .es-icon.es-line.ml-2.icon-xs {
+filter: invert() !important;
+}
 
 [data-theme="light"] body {
 background-color: rgba(242, 242, 242, 1);
