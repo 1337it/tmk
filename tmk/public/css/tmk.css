@@ -2,9 +2,13 @@
 
 @media only screen and (min-width: 992px) {
 
-html, body {
-background-color: rgb(242, 242, 242) !important;
+[data-theme="light"] body {
+background-color: rgba(242, 242, 242, 1);
 }
+[data-theme="dark"] body {
+background-color: rgb(13, 13, 13);
+}
+    
     
 .navbar-nav .dropdown-menu-right {
 right: 0px;
@@ -297,7 +301,10 @@ top: -5px;
 padding-top: 0px!important;
 }
 [data-theme="dark"] .sidebar-item-icon {
-filter: brightness(10)!important;
+filter: invert()!important;
+}
+    html, body {
+background-color: rgba(13, 13, 13, 1);
 }
 [data-theme="dark"] .sidebar-item-label {
 filter: brightness(10) !important;
