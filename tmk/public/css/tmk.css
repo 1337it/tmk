@@ -18,6 +18,12 @@ background-color: rgba(242, 242, 242, 1);
 [data-theme="dark"] body {
 background-color: rgb(13, 13, 13);
 }
+ html[data-theme="light"] {
+background-color: rgba(242, 242, 242, 1);
+}
+html[data-theme="dark"] {
+background-color: rgb(13, 13, 13);
+}   
     
     
 .navbar-nav .dropdown-menu-right {
