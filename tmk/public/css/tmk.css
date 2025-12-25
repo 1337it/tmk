@@ -2,6 +2,10 @@
 
 @media only screen and (min-width: 992px) {
 
+html, body {
+background-color: rgb(242, 242, 242) !important;
+}
+    
 .navbar-nav .dropdown-menu-right {
 right: 0px;
 left: 17vw!important;
